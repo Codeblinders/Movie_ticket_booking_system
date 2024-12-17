@@ -1,0 +1,36 @@
+# letter = "vivek  yadav"
+# print(letter)
+# for i in range(len(letter)):
+#     if letter[i:i+2] == "  ":
+#         print("double")
+
+# letter="vivek   yadav"
+# print(letter)
+# letter1=letter.replace("  "," ")
+# print(letter1)
+
+# user=input("what is your name : ")
+# print(user , "good afternoon")
+
+fruits=[]
+n=int(input("write the number of fruits you want to enter : "))
+for i in range(n):
+    fruit=input(f"enter fruit {i+1}")
+    fruits.append(fruit)
+
+print(fruits)
+
+marks=[]
+n=int(input("write the number of marks you want to enter : "))
+for i in range(n):
+    mark=input(f"enter marks {i+1}")
+    marks.append(mark)
+    marks.sort()
+
+print(marks)
+
+mark1=[10,20,30]
+print(sum(mark1))
+
+a = [7, 0, 8, 0, 0, 9]
+print(a.count(0))
